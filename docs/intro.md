@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to Mintr!
+# Mintr Overview
 Let's discover **Mintr in less than 5 minutes**.
 
 ## Getting Started
