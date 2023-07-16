@@ -2,34 +2,93 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
-
-Let's discover **Docusaurus in less than 5 minutes**.
+# Welcome to Mintr!
+Let's discover **Mintr in less than 5 minutes**.
 
 ## Getting Started
+Get started by **creating a new collection**.
 
-Get started by **creating a new site**.
+Then **create a new NFT**, or **import files** from your device, or **download a minted collection**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Create a new collection
+Go to the [Collections page](https://mintr.nftr.pro/collections/).
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**:
+Click **+ New Collection**. 
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+Add a title and description if you want, and click **OK**.
 
-## Start your site
+A new Collection will be added to the top of the page.
 
-Run the development server:
+Click **Edit** to open the collection in the Collection Editor.
 
-```shell
-cd my-website
 
-npx docusaurus start
-```
+## Create NFTs
+There are three ways to create new NFTs.
+1. **Create a new NFT** and add details in the editor
+2. **Import files**, with or without metadata
+3. **Download a minted collection**
 
-Your site starts at `http://localhost:3000`.
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+### Create a new NFT
+In the Collection Editor, create a new NFT by clicking **+ New NFT**.
+
+
+### Import files
+
+In the Collection Editor, go to: **Collection > Process**.
+
+Select **Scan / Import Directory**.
+
+A popup will appear. Click **Browse...** and select the folder with all your files in it.
+
+Click **Upload** to start the import process. 
+
+*Note: Mintr doesn't upload files at this point. The browser thinks anything selecting files is "Uploading".*
+
+Mintr will scan through the files in the folder, and will provide powerful importing options.
+
+Choose the options in the Scan / Import Directory view, and then click **Import** 
+
+
+### Download a minted collection
+
+In the Collection Editor, go to: **Collection > Process**.
+
+Select **Download Minted Collection**.
+
+Add the **Collection ID** for the collection you want to download.
+
+Click **Import** to start the downloading process.
+
+
+## Update Metadata
+
+Anytime you edit the collection values, you will need to click *Update Metadata*. 
+
+*Be sure to wait for the process to finish before you proceed.*
+
+
+## Upload to IPFS
+
+Anytime you edit the collection values, you will need to click *Update Metadata*.
+
+*Be sure to wait for the process to finish before you proceed.*
+
+
+## Mint NFTs
+
+You can mint a single NFT by selecting an NFT and clicking **Mint NFT**.
+
+OR
+
+You can mint many at once, by first **Creating a Batch**.
+
+
+## Creating a Batch
+You can mint many at once, by first **Creating a Batch**.
+1. Click the multi-select check box at the top of the NFT list.
+2. Select the items you want to include in the batch.
+3. Click the **+ Batch** button.
+4. Click **Start** *(button name may change)*
+5. Go to the Batch tab to view your batches.
