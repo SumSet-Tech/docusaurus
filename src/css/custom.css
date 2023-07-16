@@ -38,4 +38,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .features_src-components-HomepageFeatures-module, p {
     font-size: 1.125em;
 }
+.theme-doc-footer-edit-meta-row{
+    visibility: hidden;
+}
 
