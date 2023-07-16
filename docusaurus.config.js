@@ -51,7 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Mintr Docs',
+            label: 'Mintr',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

@@ -1,55 +1,28 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 ---
 
-# Manage Docs Versions
+# Performance Tips
 
-Docusaurus can manage multiple versions of your docs.
+## Firefox Browser
+Mintr works on all browsers, but currently, it's much faster with Firefox. 
 
-## Create a docs version
 
-Release a version 1.0 of your project:
+## Disk space
+Mintr stores imported data using IndexedDB, a browser-based database standard.
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+The browser will be able to use half of the available disk space for imported data. 
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+If you have a large collection, make sure you have enough space. 
 
-Your docs now have 2 versions:
+## Use Scan instead of Import
+If you have a large collection it may not be possible to import all the assets.
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+When importing files, you are given a choice to Ignore, Scan, Import, or Convert.
 
-## Add a Version Dropdown
+If you choose Scan instead of Import, the assets will still be usable when uploading and minting.
 
-To navigate seamlessly across versions, add a version dropdown.
+The only time files need to be imported, are when you want to use them for a thumbnail reference in Mintr.
 
-Modify the `docusaurus.config.js` file:
 
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
 
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`

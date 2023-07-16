@@ -71,7 +71,7 @@ Anytime you edit the collection values, you will need to click *Update Metadata*
 
 ## Upload to IPFS
 
-Anytime you edit the collection values, you will need to click *Update Metadata*.
+Click Upload to IPFS to upload all your assets and metadata.
 
 *Be sure to wait for the process to finish before you proceed.*
 
