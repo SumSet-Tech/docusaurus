@@ -79,11 +79,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/m3rYpu7xwe',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/NFTr_pro',
               },
             ],
           },
