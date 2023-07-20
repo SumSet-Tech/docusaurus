@@ -13,6 +13,8 @@ To create offers, first [create a batch of NFTs](batches).
 ## Use the batch of NFTs
 Go to the Batch tab and click the dot menu for the batch of NFTs you want to create offers for.
 
+Select **Create Offers**.
+
 ![img_7.png](img_7.png)
 
 The "Batch: Create Offers" view will appear.
@@ -20,6 +22,9 @@ The "Batch: Create Offers" view will appear.
 ## Batch: Create Offers
 
 ![img_9.png](img_9.png)
+
+
+## Chia CLI
 
 Create offers with the Chia app and the command line interface (CLI). This can be done by pasting the script provided into your terminal.
 
