@@ -24,7 +24,7 @@ export default function Home() {
     return (
         <Layout
             title={`Documentation`}
-            description="Documentation for SumSet Tech products including Mintr">
+            description="Documentation for Mintr">
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>

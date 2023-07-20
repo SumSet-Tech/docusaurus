@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'SumSet Tech',
+  title: 'Mintr',
   tagline: 'Documentation',
   url: 'https://sumset.tech',
   baseUrl: '/',
@@ -41,18 +41,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'SumSet Tech',
+        title: 'Mintr Docs',
         logo: {
-          alt: 'SumSet Tech Logo',
-          src: 'img/sumset-tech-logo-150px.jpg',
+          alt: 'Mintr Logo',
+          src: 'img/nftr-logo.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Mintr',
-          },
+          },*/
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://mintr.nftr.pro',
