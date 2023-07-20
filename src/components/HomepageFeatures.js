@@ -24,7 +24,7 @@ function Feature({Png, title, description}) {
                 <p>{description}</p>
                 <Link
                     className="button button--secondary button--lg"
-                    to="/docs/intro">
+                    to="/docs/overview">
                     Mintr Overview - 5 min ⏱️
                 </Link>
             </div>

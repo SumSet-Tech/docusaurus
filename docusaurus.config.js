@@ -47,12 +47,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/nftr-logo.png',
         },
         items: [
-          /*{
+          {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
-            label: 'Mintr',
-          },*/
+            label: 'Overview',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://mintr.nftr.pro',
