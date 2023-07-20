@@ -15,9 +15,11 @@ With a batch of NFTs, you can call the following actions.
 Creating a batch involves selecting the NFTs you want and adding them to a batch.
 
 1. Click the multi-select check box at the top of the NFT list.
+
 ![img_1.png](img_1.png)
 
 The batch selection tools will appear below the search bar and the list of NFTs will become selectable.
+
 ![img_3.png](img_3.png)
 
 4. Select the NFTs you want to include in the batch.
@@ -37,6 +39,5 @@ Give your batch a name.
 ## List of Batches
 Once you create a batch you can view it in the Batch tab.
 
-Go to the Batch tab to view them.
 
 ![img_6.png](img_6.png)
