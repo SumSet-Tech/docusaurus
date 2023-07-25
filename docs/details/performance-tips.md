@@ -20,6 +20,8 @@ If you have a large collection it may not be possible to import all the assets.
 
 When importing files, you are given a choice to Ignore, Scan, Import, or Convert.
 
+![img.png](usescan.png)
+
 If you choose Scan instead of Import, the assets will still be usable when uploading and minting.
 
 The only time files need to be imported, are when you want to use them for a thumbnail reference in Mintr.
