@@ -29,6 +29,7 @@ The batch selection tools will appear below the search bar and the list of NFTs 
 ![img_4.png](img_4.png)
 
 The Batch selection view will appear.
+
 ![img_5.png](img_5.png)
 
 Give your batch a name.
